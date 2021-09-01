@@ -1,0 +1,155 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background:#3C5C9A;
+    padding:8px 0px;
+}
+.header::after{
+        content: '';
+        clear:both;
+        display:block;
+}
+.container {
+    width:95%;
+    margin:auto;
+    max-width: 1000px;
+
+}
+.logo-area{
+    width:18%;
+    float: left;;
+    margin-top:18px;
+}
+.login-area form{
+    width:42%%;
+    float: right;
+    color:white;
+
+}
+.login-area label,
+.login-area input {
+    display:block;
+    margin-right:15px;
+    
+}
+
+.login-area .email,.login-area .password, .login-area .login{
+    float:left;
+}
+.login-area label{
+    font-size:13px;
+    margin-bottom:8px
+}
+.login-area .login{
+    margin:0px;
+}
+.email1,.pass1{
+    border:1px solid black;
+    padding:0px 5px; 
+    outline: none;
+    
+}
+.login-area .password a{
+    text-decoration: none;
+    color:#ddd;
+    font-size:13px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area .login input{
+    border:1px solid #29487d;
+    padding:3px 8px;
+    background-color: #4247b2;
+    margin-top:22px;
+    color:#fff;
+    
+}
+/* end header area design */
+.signup-area{
+    padding: 25px 0px;
+}
+.signup-area::after{
+    content:'';
+    clear:both;
+    display: block;
+}
+.left-area{
+    width:40%;
+    float: left;
+}
+.right-area{
+    width:55%;
+    float:right;
+}
+.text p {
+    width:50%;
+}
+.right-area h2{
+    margin: 0px;
+    font-size:33px;
+    color:#333;
+}.right-area h4{
+    margin: 0px;
+    margin-bottom:10px;
+    margin-top:5px;
+    font-weight:500;
+    color: #1d2129;
+}
+.right-area input[type="text"],.right-area input[type="password"]{
+    width:100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 14px;
+    margin: 5px 0px
+}
+.first-name{
+    width:48%;
+    float: left;
+    margin-right: 4%;
+  
+}
+.surname{
+    float: left;
+    width:48%;
+}
+.full-name{
+    overflow: hidden;
+}
+.birthday{
+    overflow: hidden;
+    width: 188px;
+    display: inline;
+    margin-right: 
+}
+.birth-date select {
+    float: left;
+    padding: 5px;
+}
+.birth-date {
+    width: 188px;
+    
+}
+.birthday h4{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.link-birth a{
+    float: left;
+    margin-left: 10px;
+    width: 190px;
+    font-size: 13px;
+    line-height: 1.2 px;
+    text-decoration: none;
+}
+.link-birth a:hover{
+    text-decoration: underline;
+}
+.birth-gender {
+    display: inline;
+}
